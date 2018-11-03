@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE6E1DAB4C662A6146E25E8 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C96D263BE7B77B471007B7 /* Pods_Test.framework */; };
 		F32E1E7F216E465100949BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E1E7E216E465100949BAC /* AppDelegate.swift */; };
-		F32E1E81216E465100949BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E1E80216E465100949BAC /* ViewController.swift */; };
+		F32E1E81216E465100949BAC /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E1E80216E465100949BAC /* ShopListViewController.swift */; };
 		F32E1E84216E465100949BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E1E82216E465100949BAC /* Main.storyboard */; };
 		F32E1E86216E465600949BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32E1E85216E465600949BAC /* Assets.xcassets */; };
 		F32E1E89216E465600949BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E1E87216E465600949BAC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49968655A610EFEE59D3CDC1 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		50FE17572E54D780B703D340 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		F32E1E7B216E465100949BAC /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32E1E7E216E465100949BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F32E1E80216E465100949BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F32E1E80216E465100949BAC /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
 		F32E1E83216E465100949BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F32E1E85216E465600949BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F32E1E88216E465600949BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F32E1E8A216E465600949BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32E1E91216F9B9D00949BAC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F9C96D263BE7B77B471007B7 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE6E1DAB4C662A6146E25E8 /* Pods_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33682723736AD598DD922A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C96D263BE7B77B471007B7 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AF258DCA14A719ADB5E35D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49968655A610EFEE59D3CDC1 /* Pods-Test.debug.xcconfig */,
+				50FE17572E54D780B703D340 /* Pods-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F32E1E72216E465100949BAC = {
 			isa = PBXGroup;
 			children = (
 				F32E1E7D216E465100949BAC /* Test */,
 				F32E1E7C216E465100949BAC /* Products */,
+				E8AF258DCA14A719ADB5E35D /* Pods */,
+				33682723736AD598DD922A4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				F32E1E7E216E465100949BAC /* AppDelegate.swift */,
-				F32E1E80216E465100949BAC /* ViewController.swift */,
+				F32E1E80216E465100949BAC /* ShopListViewController.swift */,
 				F32E1E82216E465100949BAC /* Main.storyboard */,
 				F32E1E85216E465600949BAC /* Assets.xcassets */,
 				F32E1E87216E465600949BAC /* LaunchScreen.storyboard */,
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F32E1E8D216E465600949BAC /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				EF67D2CC04E12E1B7E657301 /* [CP] Check Pods Manifest.lock */,
 				F32E1E77216E465100949BAC /* Sources */,
 				F32E1E78216E465100949BAC /* Frameworks */,
 				F32E1E79216E465100949BAC /* Resources */,
+				A123FF55B022224D0ABABACF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,7 +131,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = F32E1E72216E465100949BAC;
@@ -130,12 +156,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A123FF55B022224D0ABABACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF67D2CC04E12E1B7E657301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F32E1E77216E465100949BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F32E1E81216E465100949BAC /* ViewController.swift in Sources */,
+				F32E1E81216E465100949BAC /* ShopListViewController.swift in Sources */,
 				F32E1E7F216E465100949BAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +224,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F32E1E88216E465600949BAC /* Base */,
+				F32E1E91216F9B9D00949BAC /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -213,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -267,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,6 +350,7 @@
 		};
 		F32E1E8E216E465600949BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49968655A610EFEE59D3CDC1 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +368,7 @@
 		};
 		F32E1E8F216E465600949BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FE17572E54D780B703D340 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
